@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F0F8FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello,"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good Morning, wellcome back!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivLivingRoom"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="154dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.47"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.237"-->
+<!--        app:srcCompat="@drawable/livingroom" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvBedRoom"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Living Room"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintHorizontal_bias="0.11"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintVertical_bias="0.76" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvDVBedRoom"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="4 Devices"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="12sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintHorizontal_bias="0.082"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ivLivingRoom"-->
+<!--        app:layout_constraintVertical_bias="0.879" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivKitchen"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.542"-->
+<!--        app:srcCompat="@drawable/kitchen" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvKitchen"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Kitchen"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintHorizontal_bias="0.101"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintVertical_bias="0.7" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvDVKitchen"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="4 Devices"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="12sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintHorizontal_bias="0.082"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/ivKitchen"-->
+<!--        app:layout_constraintVertical_bias="0.879" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.555"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.842"-->
+<!--        app:srcCompat="@drawable/bedroom" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Bed Room"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+<!--        app:layout_constraintHorizontal_bias="0.101"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView"-->
+<!--        app:layout_constraintVertical_bias="0.7" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="4 Devices"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="12sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+<!--        app:layout_constraintHorizontal_bias="0.082"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView"-->
+<!--        app:layout_constraintVertical_bias="0.879" />-->
+
+    <Button
+        android:id="@+id/btSpeech"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        android:background="@drawable/ic_google_assistant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <Button
+        android:id="@+id/btBluetooth"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:background="@drawable/ic_bluetooth_off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="..."
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <ListView
+        android:id="@+id/lvRoom"
+        android:layout_width="345dp"
+        android:layout_height="565dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
